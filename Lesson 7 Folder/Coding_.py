@@ -1,6 +1,6 @@
 # If, Elif, and Else (Words)
 
-'''
+
 ThyShape = input("Enter a Shape: ")
 
 if ThyShape == "square":
@@ -11,13 +11,13 @@ elif ThyShape == "circle":
     print("circle")
 else:
     print("invalid input")
-'''
+
 
 #===================================================
 
 # If, Elif, and Else (Numbers)
 
-'''
+
 My_Grade = float(input("Enter your Grade: "))
 
 if My_Grade >= 97 :
@@ -42,13 +42,13 @@ elif My_Grade >= 65:
     print("5.0")
 else:
     print("W")
-'''
+
 
 #=================================================================
 
 # If, Elif, and Else (Multiple Choices/Answers)
 
-'''
+
 Citizenship = "Filipino"
 Age = 18
 Registered = True
@@ -66,7 +66,7 @@ elif Citizenship == "Filipino" and Age < 18:
     print("You are not allowed to vote. Please wait till you turn 18 and register")
 else:
     print("You are not allowed to vote nor register.")
-'''
+
 
 #=================================================================
 
@@ -75,7 +75,7 @@ else:
 # Default Increment = 1
 # (0, 10, 1) = Initial Value, Limit, Increment
 
-'''
+
 print("before loop")
 for x in range(0, 10, 1):
     print("x value is : " + str(x))
@@ -94,13 +94,13 @@ print("before loop")
 for xx in range(0, 10):
     print("x value is : " + str(xx))
 print("after loop")
-'''
+
 
 #=========================================================
 
 # Iteration = for each
 
-'''
+
 FruitsList = ["apple", "banana", "orange"]
 for fruit in FruitsList:
     print("Fruit List Include: " + fruit)
@@ -110,13 +110,13 @@ for fruit in FruitsList:
 myString = "Pneumonoultramicroscopicsilicovolcanoconiosis"
 for char in myString:
     print(char.upper())
-'''
+
 
 #=============================================================
 
 # Print the Values
 
-'''
+
 MyInfo = {
     "First Name": "Kirk Claret",
     "Middle Name": "Sistona",
@@ -131,13 +131,13 @@ for key in MyInfo:
 
 for value in MyInfo.values():
     print(value)
-'''
+
 
 #=================================================================
 
 # To Reverse the Word
 
-'''
+
 OriginalWord = "Mahal kita, pero mahal mo paden siya"
 print("Original Word : " + OriginalWord)
 NewWord = ""
@@ -149,7 +149,7 @@ print("NewWord : " + NewWord)
 
 
 print(OriginalWord[::-1]) #alternative way to Reverse
-'''
+
 
 #===========================================================
 
@@ -161,7 +161,7 @@ print(OriginalWord[::-1]) #alternative way to Reverse
 
 #
 
-'''
+
 print("before loop")
 
 for i in range(10):
@@ -174,11 +174,11 @@ for i in range(10):
     print("i's value now is: " + str(i))
 
 print ("after loop")
-'''
+
 
 #============================================================
 
-'''
+
 import time
 
 IsConnected = "No"
@@ -194,20 +194,23 @@ for retry in range(4):
         print("Retry timeout")
 
 print("Processing your request...")
-'''
+
 
 #============================
 
+
 #Nested Loop
 
-'''
+
 for i in range(10):
     print(str(i) + "============================")
     for x in range(10):
         print(x)
-'''
+
+
 
 #===============================================
+
 
 charList = [
     'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
